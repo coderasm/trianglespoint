@@ -14,7 +14,7 @@ namespace triangle_using_point
     private double AngleOne { get; set; } = 0;
     private double AngleTwo { get; set; } = 0;
     private double AngleThree { get; set; } = 0;
-    public double[] SortedSides { get; set; } = { 0, 0, 0};
+    private double[] SortedSides { get; set; } = { 0, 0, 0};
 
     public Triangle()
     {
