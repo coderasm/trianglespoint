@@ -58,7 +58,8 @@ namespace triangle_using_point
     private void SetSortedSides()
     {
       double[] sideLengths = { SideOne, SideTwo, SideThree };
-      SortedSides = sideLengths.OrderBy(s => s).ToArray();
+      Array.Sort(sideLengths);
+      SortedSides = sideLengths;
     }
 
     private void setAngles()
